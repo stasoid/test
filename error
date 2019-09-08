@@ -1,0 +1,14 @@
+The run ended in error:
+Evaluating the field lookup expression at file:///root/Pyret/pyret-lang/src/arr/compiler/cli-module-loader.arr:378:6-378:27 errored. The left side was an object that did not have a field named `add-profiling`: {standalone-file: src/js/base/handalone.js, display-progress: false, check-all: false, this-pyret-dir: ., check-mode: true, type-check: false, allow-shadowed: false, collect-all: false, collect-times: false, ignore-unbound: false, proper-tail-calls: true, inline-case-body-limit: 5, module-eval: true, compiled-cache: compiled, should-profile: <method:<anonymous method>>, log: <function:<anonymous function>>, log-error: <function:<anonymous function>>, on-compile: <method:on-compile>, before-compile: <method:before-compile>, html-file: none, deps-file: build/bundled-node-deps.js}
+Pyret stack:
+  file:///root/Pyret/pyret-lang/src/arr/compiler/cli-module-loader.arr: line 378, column 6
+  file:///root/Pyret/pyret-lang/src/arr/compiler/compile-lib.arr: line 430, column 54
+  file:///root/Pyret/pyret-lang/src/arr/compiler/compile-lib.arr: line 349, column 4
+  file:///root/Pyret/pyret-lang/src/arr/compiler/compile-lib.arr: line 303, column 46
+  builtin://lists: line 510, column 36
+  file:///root/Pyret/pyret-lang/src/arr/compiler/compile-lib.arr: line 295, column 14
+  file:///root/Pyret/pyret-lang/src/arr/compiler/compile-lib.arr: line 517, column 13
+  file:///root/Pyret/pyret-lang/src/arr/compiler/cli-module-loader.arr: line 329, column 18
+  file:///root/Pyret/pyret-lang/src/arr/compiler/pyret.arr: line 208, column 47
+  file:///root/Pyret/pyret-lang/src/arr/compiler/pyret.arr: line 92, column 4
+  file:///root/Pyret/pyret-lang/src/arr/compiler/pyret.arr: line 232, column 12

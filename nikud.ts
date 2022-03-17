@@ -1,4 +1,4 @@
-import { interpreter } from "./src";
+import { interpreter } from "./src"; 
 
 if (process.argv.length <= 2) {
     console.log("specify filename");
